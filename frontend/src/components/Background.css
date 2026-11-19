@@ -1,0 +1,17 @@
+.universal-bg {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 0 !important;
+  pointer-events: none;
+}
+
+.app-content {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+}
